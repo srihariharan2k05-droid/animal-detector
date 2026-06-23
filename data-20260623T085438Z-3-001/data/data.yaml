@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cow']
+
+roboflow:
+  workspace: itmo-2kzwv
+  project: cows-3th9d
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/itmo-2kzwv/cows-3th9d/dataset/1

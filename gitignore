@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt
+
+# Directories to ignore
+data/
+valid/
+models/
+
+# Specific large files
+yolov8n.pt
+yolo11n.pt
+
+# Others
+.env
+.DS_Store

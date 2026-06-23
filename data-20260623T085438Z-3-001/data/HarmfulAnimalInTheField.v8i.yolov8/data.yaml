@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Cow', 'Deer', 'Elephant', 'Pig']
+
+roboflow:
+  workspace: projects-fla5a
+  project: harmfulanimalinthefield
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-fla5a/harmfulanimalinthefield/dataset/8
